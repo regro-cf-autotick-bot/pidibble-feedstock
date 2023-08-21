@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pidibble-{{ version }}.tar.gz
-  sha256: 1430e961329ccf92ccde3af53c9d98e653a67d1fcad277f5c57cbb42ccc7facb
+  sha256: 30251cb5fdead24583e2f9c52da06583e6d9a3f1372ccb0f7f0c3cd372469c6d
 
 build:
   noarch: python
