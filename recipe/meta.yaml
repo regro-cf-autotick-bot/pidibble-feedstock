@@ -1,5 +1,5 @@
 {% set name = "pidibble" %}
-{% set version = "1.0.7.5" %}
+{% set version = "1.0.7.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pidibble-{{ version }}.tar.gz
-  sha256: 30251cb5fdead24583e2f9c52da06583e6d9a3f1372ccb0f7f0c3cd372469c6d
+  sha256: 4a0456a61f58f6de61b918ba832cfc0687d4f1402d5c29aab34f33bd82ca700f
 
 build:
   noarch: python
